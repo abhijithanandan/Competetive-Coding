@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "./vscode-settings-tutorial"
+		},
+		{
+			"path": "./vscode-cmake-tutorial"
 		}
 	],
 	"settings": {}
