@@ -7,9 +7,10 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "${workspaceFolder}/*.cpp",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                // "${fileDirname}/${fileBasenameNoExtension}"
+                "vector.o"
             ],
             "options": {
                 "cwd": "${fileDirname}"

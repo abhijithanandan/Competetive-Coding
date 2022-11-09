@@ -4,6 +4,8 @@
 
 using namespace std;
 
+int print_int_vector();
+
 int main() {
     vector<string> msg {"Hello", "C++", "World", "from", "VS Code"};
 
@@ -13,5 +15,6 @@ int main() {
     }
 
     cout << endl;
+    print_int_vector();
     
 }
